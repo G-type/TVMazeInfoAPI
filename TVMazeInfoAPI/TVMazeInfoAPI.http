@@ -1,0 +1,22 @@
+@TVMazeInfoAPI_HostAddress = https://api.tvmaze.com
+
+GET {{TVMazeInfoAPI_HostAddress}}/shows/1 
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/shows/1/episodes
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/shows/1/cast
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/shows/1/crew
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/search/shows?q=game%20of%20thrones
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/updates/shows
+Accept: application/json
+
+GET {{TVMazeInfoAPI_HostAddress}}/updates/shows?since=day
+Accept: application/json
